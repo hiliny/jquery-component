@@ -1,5 +1,5 @@
 (function(){
-  //车票日期滑动控件
+  //日期滑动控件
   //options 可配置参数
   //showNum:显示从今天开始的多少天，如：32
   //pageSize:一页显示多少日期 ，如：8
@@ -29,9 +29,7 @@
          this.currentPage = 0;//当前处于第几页
          this.totalPage = 0;
          this.activeIndex = 0;//当前选中的index
-         if(!this.$elem.hasClass("vetech-date")){
-           this.$elem.addClass("vetech-date");
-         }
+         this.$elem.addClass("vetech-date");
          this.$navLeft = $('<a href="javascript:;" class="dateleft"><i class="iconfont icon-b-left"></i></a>');
          this.$navRight =  $('<a href="javascript:;" class="dateright able"><i class="iconfont icon-b-right"></i></a>');
          this.$navContent = $('<div class="vetech-date-box"><ul></ul></div>');
