@@ -1,0 +1,71 @@
+/* 滑动日期组件 */
+.vetech-date{
+  overflow: hidden;
+  border:1px solid #008bd0;
+  border-bottom: none;
+  height: 60px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+.vetech-date>a{
+  display: block;
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 2px solid #008bd0;
+}
+.vetech-date>a>.iconfont{
+    font-size: 30px;
+    color: #dfdfdf;
+}
+.vetech-date>.dateleft{
+  border-right: 1px solid #008bd0;
+  width: 50px;
+}
+.vetech-date >.dateright{
+  border-right: none;
+  width: 51px;
+}
+.vetech-date>.vetech-date-box{
+  float: left;
+  height: 60px;
+}
+.vetech-date>.vetech-date-box{
+  width: 1096px;
+  overflow:hidden;
+}
+.vetech-date>.vetech-date-box>ul{
+  overflow:hidden;
+  width: 100%;
+}
+.vetech-date>.vetech-date-box>ul>li{
+  float: left;
+  width: 137px;
+  height: 60px;
+  text-align: center;
+  border-right: 1px solid #008bd0;
+  border-bottom: 2px solid #008bd0;
+  cursor: pointer;
+  line-height: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.vetech-date>.vetech-date-box>ul>li:hover{
+  background-color: #008bd0;
+  color: #fff;
+}
+.vetech-date>.vetech-date-box>ul>.current{
+  border-bottom:none;
+  border-top: 2px solid #008bd0;
+  border-left:1px solid #008bd0;
+  border-right:2px solid #008bd0;
+}
+.vetech-date>.vetech-date-box>ul>li>span{
+  padding: 0 6px;
+}
+.vetech-date>.able>.iconfont{
+  color: #008bd0 !important;
+}
